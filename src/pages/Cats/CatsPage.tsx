@@ -28,12 +28,12 @@ const CatsPage = observer(() => {
         <InfiniteScroll next={fetchMore}
                         hasMore={true}
                         dataLength={cats.length}
-                        scrollThreshold={'100px'}
+                        scrollThreshold="100px"
                         loader={<Spinner className="my-3"/>}
                         endMessage={
                             <Text className="text-center my-3">Вы просмотрели все элементы</Text>
                         }>
-            <Flex gap={'4xl'}>
+            <Flex gap="4xl">
                 {cats.map(cat => (
                     <CatCard cat={cat}/>
                 ))}

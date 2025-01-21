@@ -43,7 +43,7 @@ const Header = observer(() => {
     return (
         <PanelHeader after={after}
                      before={
-                         <Tabs className={'w-[35%]'}>
+                         <Tabs className="w-[35%]">
                              <TabsItem
                                  selected={activeTab === 'all'}
                                  onClick={() => PageStore.changeActiveTab('all')}

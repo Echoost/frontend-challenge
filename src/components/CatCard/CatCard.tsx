@@ -19,13 +19,13 @@ const CatCard = observer((props: Props) => {
     const { isFavorite, toggleFavorite } = CatStore;
     return (
         <Card key={cat.id} className="relative hover:shadow-2xl transition-shadow">
-            <Image size={256} src={cat.url} alt={'Cat Image'}/>
+            <Image size={256} src={cat.url} alt="Cat Image"/>
 
             {isFavorite(cat.id)
-                ? <Icon24Like fill={'red'}
+                ? <Icon24Like fill="red"
                               className="absolute bottom-3 right-2"
                               onClick={() => toggleFavorite(cat)}/>
-                : <Icon24LikeOutline fill={'red'}
+                : <Icon24LikeOutline fill="red"
                                    className="absolute bottom-3 right-2"
                                    onClick={() => toggleFavorite(cat)}/>}
         </Card>

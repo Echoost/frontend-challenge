@@ -20,10 +20,9 @@ const FavouriteCatsPage = observer(() => {
             ))}
 
             <If condition={!favorites.length}>
-                <Placeholder
-                    className='mx-auto'
-                    icon={<Icon28SmileOutline />}
-                    title="Нету любимых котиков"
+                <Placeholder className="mx-auto"
+                             icon={<Icon28SmileOutline />}
+                             title="Нету любимых котиков"
                 >
                     Cамое время их добавить!
                 </Placeholder>
