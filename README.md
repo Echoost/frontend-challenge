@@ -2,4 +2,4 @@
 
 Стек: React, TS, MobX, VK UI, React Infinity Scroller, Vite
 
-Сайт для просмотра: [[https://test-vk.netlify.app/](https://vk-test-list.netlify.app/)]
+Сайт для просмотра: [https://test-vk.netlify.app/](https://vk-test-list.netlify.app/)
